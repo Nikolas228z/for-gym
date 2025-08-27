@@ -96,11 +96,11 @@ header {
  height: 49vh;
  width: 20vw;
  border-radius: 7vw 0 7vw 0;
- transform: translate(84%);
+ transform: scale(1.1) translate(84%);
+    transition: 0.5s;
 }
 .one-from-imge:hover {
- border-radius: 8vw 0 8vw 0;
- transform: scale(1.1) translate(72%);
+ transform: scale(1.15) translate(71%);
 }
 .for-h {
  margin: 0;
@@ -136,10 +136,10 @@ header {
  width: 40vw;
  background-color: #5959ff;
  border-radius: 7vw 0 7vw 0;
+    transition: 0.5s;
 }
-.name1:hover {
- background-color: #5959ff;
- border-radius: 7vw 0 7vw 0;
+.name1:hover{
+    transform: scale(1.05);
 }
 .name2 {
  height: 75vh;
@@ -157,10 +157,7 @@ header {
  border-radius: 7vw 0 7vw 0;
  transform: scale(1.1);
 }
-.first-image:hover {
- border-radius: 7vw 0 7vw 0;
- transform: scale(1.13);
-}
+
 .second-image {
  width: 26vw;
  padding: 0 10px 0 10px;

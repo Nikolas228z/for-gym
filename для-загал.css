@@ -15,6 +15,22 @@
       justify-content: space-between;
     width: 40vw;
 }
+.navbar ul li
+{
+    align-content: center;
+}
+.black-button{
+    background-color: black;
+    color: white;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 2vh;
+}
+.black-button:hover{
+    background-color: white;
+    color: black;
+    border: solid black;
+}
 .paragraf{
     margin-right: 40vw;
 }
@@ -22,16 +38,16 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('images/ChatGPT Image 21 серп. 2025 р., 12_39_35.png');
-    filter: blur(190%);
+    backdrop-filter: blur(2px);
     text-align: center;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #41c341;
-    margin: 0;
-    color: white;
+ background-color: limegreen;
+ background-image: url("Screenshot_20250710-122838~2.png");
+ background-position: left;
+ margin: 0;
+ color: white;
 }
 .right-div{
     width: 18vw;
@@ -111,7 +127,7 @@ header {
     background-size: cover;
     background-image: url('images/Screenshot_20250820-000709__1__2-removebg-preview.png');
     height: 80vh;
-    width: 100vw;
+    width: 100%;
     padding: 0 0 5vh 0;
 }
 .text-agein{
