@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: limegreen;
+    background-image: url("Screenshot_20250710-122838~2.png");
+    background-position: left;
+    margin: 0;
+}
+.button {
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    position: sticky;
+    padding: 0 0;
+    background-color: limegreen;
+}
+.custom-shape {
+  width: 300px;
+  height: 300px;
+  background-image: url('photo.jpg');
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0% 0%, 0% 290%, 210% 306%);
+}

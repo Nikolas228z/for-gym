@@ -1,0 +1,164 @@
+.for-h1{
+    margin: 0;
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #41c341;
+    color: black;
+}
+.navbar ul{
+    display: flex;
+    list-style-type:none;
+      justify-content: space-between;
+    width: 40vw;
+}
+.paragraf{
+    margin-right: 40vw;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/ChatGPT Image 21 серп. 2025 р., 12_39_35.png');
+    filter: blur(190%);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #41c341;
+    margin: 0;
+    color: white;
+}
+.right-div{
+    width: 18vw;
+    height: 7vh;
+    color: #41c341;
+    background-color: #41c341;
+     background-size: cover;
+     clip-path: polygon(0% -79%, 0% 138%, 100% 0%);
+
+}
+.left-div{
+     width: 18vw;
+    height: 7vh;
+    color: #41c341;
+    background-color: #41c341;
+     background-size: cover;
+     clip-path: polygon(0% -79%, 0% 138%, 100% 0%);
+     transform: scaleX(-1);
+    margin-left:66vw;
+}
+.for-2div{
+    display: flex;
+     transform: translateY(-1vh);
+}
+.black-button{
+    background-color: black;
+    color: white;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 2vh;
+}
+.black-button:hover{
+    background-color: white;
+    color: black;
+    border: solid black;
+}
+.its-start {
+    width: 40%;
+    border-radius: 15vw 38vw 49vw 4vw;
+}
+
+.button {
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    position: sticky;
+    padding: 0 0;
+    background-color: #41c341;
+}
+.its-finish {
+    background-color: #E2E2E2;
+    color: white;
+}
+.liist {
+    margin: 0;
+    text-align-last: left;
+    list-style-type: none;
+}
+
+.many-words{
+    height: 30vh;
+    border-radius: 3vh;
+      background-color: #41c341;
+    width: 90%;
+    margin: 0 auto;
+     align-content: center;
+    color: white;
+
+}
+.for-many-words{
+    width: 75vw;
+      margin: 0 auto;
+}
+.text-for-img{
+    color: white;
+    align-content: center;
+    background-size: cover;
+    background-image: url('images/Screenshot_20250820-000709__1__2-removebg-preview.png');
+    height: 80vh;
+    width: 100vw;
+    padding: 0 0 5vh 0;
+}
+.text-agein{
+    margin-left: 25vw;
+}
+.triengl-for-text{
+    width: 18vw;
+    height: 7vh;
+    color: #37b137;
+    background-color: #37b137;
+     background-size: cover;
+     clip-path: polygon(0% -97%, 0% 138%, 100% 162%);
+        margin-left:2vw;
+    transform: translateY(3vh);
+}
+.triengl-for-text2{
+      width: 18vw;
+    height: 7vh;
+    color: #37b137;
+    background-color: #37b137;
+     background-size: cover;
+     clip-path: polygon(0% -97%, 0% 138%, 100% 162%);
+     transform: scaleX(-1) translateY(-7vh);
+    margin-left:79vw;
+}
+.triengl-for-text3{
+    width: 18vw;
+    height: 7vh;
+    color:  #E2E2E2;
+   background-color: #E2E2E2;
+     background-size: cover;
+     clip-path: polygon(0% -97%, 0% 138%, 100% 162%);
+    transform: translateY(14vh);
+}
+.triengl-for-text4{
+      width: 18vw;
+    height: 7vh;
+    color:  #E2E2E2;
+   background-color: #E2E2E2;
+     background-size: cover;
+     clip-path: polygon(0% -97%, 0% 138%, 100% 162%);
+     transform: scaleX(-1) translateY(4vh);
+    margin-left:81vw;
+}
+.img-in-end{
+    border-radius: 5vh;
+}
+
+
+

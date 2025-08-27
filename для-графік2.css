@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: limegreen;
+    background-image: url("Screenshot_20250710-122838~2.png");
+    background-position: left;
+    margin: 0;
+}
+.button {
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    position: sticky;
+    padding: 0 0;
+    background-color: limegreen;
+}
+.for-section{
+    background-image: url('images/mma img_cleanup.jpg');
+}
+.zahal-div{
+    display: flex;
+}
+.div-with-surcl{
+    width: 27vw;
+    height: 23vh;
+    margin-right: 120%;
+}

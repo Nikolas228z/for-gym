@@ -1,0 +1,111 @@
+.for-h1{
+    margin: 0;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+     background-image: url('images/ChatGPT Image 21 серп. 2025 р., 12_39_35.png');
+    text-align: center;
+}
+
+header {
+    background-color: limegreen;
+    background-image: url("Screenshot_20250710-122838~2.png");
+    background-position: left;
+    margin: 0;
+      color: white;
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #41c341;
+    color: black;
+}
+.navbar ul{
+    display: flex;
+    list-style-type:none;
+      justify-content: space-between;
+    width: 40vw;
+}
+.black-button{
+    background-color: black;
+    color: white;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 2vh;
+}
+.black-button:hover{
+    background-color: white;
+    color: black;
+    border: solid black;
+}
+.paragraf{
+    margin-right: 40vw;
+}
+.right-div{
+    width: 18vw;
+    height: 7vh;
+    color: #41c341;
+    background-color: #41c341;
+     background-size: cover;
+     clip-path: polygon(0% -79%, 0% 138%, 100% 0%);
+
+}
+.left-div{
+     width: 18vw;
+    height: 7vh;
+    color: #41c341;
+    background-color: #41c341;
+     background-size: cover;
+     clip-path: polygon(0% -79%, 0% 138%, 100% 0%);
+     transform: scaleX(-1);
+    margin-left:66vw;
+}
+.for-2div{
+    display: flex;
+     transform: translateY(-3vh);
+}
+.par {
+    color: green;
+    list-style-type: none;
+    text-align-last: left;
+}
+.few-img img {
+    width: 43vh;
+    height: 39vh;
+    border-radius: 4vh;
+}
+.its-finish {
+  background-color: #E2E2E2;
+    color: white;
+}
+.liist {
+      margin: 0;
+    text-align-last: left;
+    list-style-type: none;
+}
+.triengl-for-text3{
+    width: 18vw;
+    height: 7vh;
+    color:  #E2E2E2;
+   background-color: #E2E2E2;
+     background-size: cover;
+     clip-path: polygon(0% -97%, 0% 138%, 100% 162%);
+    transform: translateY(14vh);
+}
+.triengl-for-text4{
+      width: 18vw;
+    height: 7vh;
+    color:  #E2E2E2;
+   background-color: #E2E2E2;
+     background-size: cover;
+     clip-path: polygon(0% -97%, 0% 138%, 100% 162%);
+     transform: scaleX(-1) translateY(4vh);
+    margin-left:81vw;
+}
+.agein-text{
+ color:white;
+}

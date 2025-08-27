@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: limegreen;
+    background-image: url("Screenshot_20250710-122838~2.png");
+    background-position: left;
+    margin: 0;
+}
+.button {
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    position: sticky;
+    padding: 0 0;
+    background-color: limegreen;
+}
+.right-div{
+    width: 18vw;
+    height: 7vh;
+    color: #41c341;
+    background-color: #41c341;
+     background-size: cover;
+     clip-path: polygon(0% -79%, 0% 138%, 100% 0%);
+
+}
+.left-div{
+     width: 18vw;
+    height: 7vh;
+    color: #41c341;
+    background-color: #41c341;
+     background-size: cover;
+     clip-path: polygon(0% -79%, 0% 138%, 100% 0%);
+     transform: scaleX(-1);
+    margin-left:66vw;
+}
+.for-2div{
+    display: flex;
+     transform: translateY(-3vh);
+}
+.last-steps {
+    padding: 40px 40px 40px 40px;
+}
+.for-agein-big-text{
+  max-height: 60vh;
+     width: 100%;
+    background-color: #4fdf4f;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.name1{
+    height: 75vh;
+    width: 40vw;
+    background-color: #5959ff;
+     border-radius: 7vw 0 7vw 0;
+}
+.name1:hover{
+    height: 76vh;
+    width: 41vw;
+    background-color: #5959ff;
+     border-radius: 7vw 0 7vw 0;
+}
+.name2{
+     height: 75vh;
+     width: 40vw;
+    background-color: #bebebe;
+     border-radius: 0 7vw 0 7vw;
+}
+.name2:hover{
+     height: 76vh;
+     width: 41vw;
+    background-color: #bebebe;
+     border-radius: 0 7vw 0 7vw;
+}
+.first-image {
+    width: 26vw;
+    padding: 0 10px 0 10px;
+     border-radius: 7vw 0 7vw 0;
+     transform: scale(1.1);
+}
+.first-image:hover {
+    width: 27vw;
+    padding: 0 10px 0 10px;
+     border-radius: 7vw 0 7vw 0;
+     transform: scale(1.1);
+}
+.second-image{ width: 26vw;
+    padding: 0 10px 0 10px;
+     border-radius: 0 7vw 0 7vw;
+     transform: scale(1.1);
+}
+.second-image:hover{ width: 27vw;
+    padding: 0 10px 0 10px;
+     border-radius: 0 7vw 0 7vw;
+     transform: scale(1.1);
+}
+.agein-big-text {
+    width: 78%;
+    margin: 0 auto;
+    align-items: center;
+
+
+}
+.its-finish {
+    background-color: black;
+    color: white;
+}
+.liist {
+    text-align-last: left;
+    list-style-type: none;
+}
+.title{
+    color:white;
+    margin: 0;
+
+}
+.champion{
+    height: 9vh;
+    width: 22vw;
+     background-color: #41c341;
+     border-radius: 7vw 0 7vw 0;
+    margin-left: 37%;
+    transform: translateY(4vh);
+    align-content: center;
+
+}
+.big-text{
+     width: 50%;
+    background-color: #4fdf4f;
+    border-radius: 20px;
+    margin: 0 auto;
+}

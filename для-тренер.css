@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: limegreen;
+    background-image: url("Screenshot_20250710-122838~2.png");
+    background-position: left;
+    margin: 0;
+}
+.button {
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    position: sticky;
+    padding: 0 0;
+    background-color: limegreen;
+}
+.zadovbbav{
+    display: flex;
+    margin: 0 auto;
+    height: 60vh;
+    width: 30%;
+    border-radius: 20px;
+
+    background-color: #4fdf4f;
+
+    padding: 4vh 10vh 10vh;
+}
+.div-whith-p {
+    width: 60%;
+    align-content: center;
+    background-color: #4fdf4f;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.one-from-imge {
+    width: 15vw;
+    border-radius: 10vh;
+     transform: scale(1.1);
+    padding: 10px 0 10px 10px;
+    margin: left;
+    transform: translateX(-100px)
+
+}
+.proba{
+
+}
+.many-words {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    color: white;
+
+}
+.its-finish {
+    background-color: black;
+    color: white;
+}
+.liist {
+    text-align-last: left;
+    list-style-type: none;
+}
+.new-title{
+    color: aliceblue;
+        padding: 8px;
+}
+.for-new-title{
+     height: 9vh;
+    width: 22vw;
+     background-color: #41c341;
+    border-radius: 20px;
+}

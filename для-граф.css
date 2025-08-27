@@ -1,0 +1,202 @@
+.for-h1{
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+     background-image: url('images/ChatGPT Image 21 серп. 2025 р., 12_39_35.png');
+       text-align: center;
+}
+
+header {
+    background-color: limegreen;
+    background-image: url("Screenshot_20250710-122838~2.png");
+    background-position: left;
+    margin: 0;
+    color:white;
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #41c341;
+    color: black;
+}
+.navbar ul{
+    display: flex;
+    list-style-type:none;
+      justify-content: space-between;
+    width: 40vw;
+}
+.paragraf{
+    margin-right: 40vw;
+}
+.right-div{
+    width: 18vw;
+    height: 7vh;
+    color: #41c341;
+    background-color: #41c341;
+     background-size: cover;
+     clip-path: polygon(0% -79%, 0% 138%, 100% 0%);
+
+}
+.left-div{
+     width: 18vw;
+    height: 7vh;
+    color: #41c341;
+    background-color: #41c341;
+     background-size: cover;
+     clip-path: polygon(0% -79%, 0% 138%, 100% 0%);
+     transform: scaleX(-1);
+    margin-left:66vw;
+}
+.for-2div{
+    display: flex;
+     transform: translateY(-3vh);
+}
+.for-title{
+    color: white;
+    font-size: 50px;
+}
+.with-jiu{
+    margin-left: 12vw;
+}
+.h-with-jiu{
+    color: #00ff00;
+    font-size: 30px;
+    margin: 0;
+}
+.h-with-cross{
+    color: #396FCC;
+}
+.p-for-jiu{
+    color: #ffffff;
+      font-size: 20px;
+    margin: 2vh;
+}
+.black-button{
+    background-color: black;
+    color: white;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 2vh;
+}
+.black-button:hover{
+    background-color: white;
+    color: black;
+    border: solid black;
+}
+.gray-button{
+    width: 15vw;
+     height: 6vh;
+   background-color: lightgray;
+    color: black;
+     border-radius: 2vh;
+}
+.gray-button:hover{
+     background-color: gray;
+}
+.with-MMA{
+    display: flex;
+    padding: 3vh 0 3vh 0;
+}
+.h-with-MMA{
+     color: #ff0404;
+    font-size: 30px;
+    margin: 0;
+}
+.second-h{
+    margin-right: 40vw;
+    color: white;
+
+}
+.h-with-pt{
+    color: #40C281;
+      font-size: 30px;
+    margin: 0;
+}
+.mma-img{
+    width: 30vw;
+    height: 30vh;
+    margin-left: 12vw;
+    border-radius: 5vh;
+}
+.div-for-pos{
+
+     margin-left: 8vw;
+}
+.bjj-img{
+       width: 30vw;
+    height: 30vh;
+    margin-left: 7vw;
+    border-radius: 5vh;
+}
+.zahal-for-jiu{
+    display: flex;
+}
+.zahal-for-pt{
+    margin-left: 10vw;
+}
+.private-train-img{
+    width: 35vw;
+    height: 83vh;
+    border-radius: 5vh;
+}
+.zahal-for-all{
+    display: flex;
+    justify-content: space-around;
+}
+.its-finish {
+  background-color: #E2E2E2;
+    color: white;
+}
+.zahal-for-2div{
+    margin-right: 5vw;
+    padding: 0 0 5vh 0;
+}
+.almost-last{
+        width: 30vw;
+    height: 30vh;
+    border-radius: 5vh;
+}
+.last-img{
+        width: 30vw;
+    height: 30vh;
+    border-radius: 5vh;
+}
+.crossfit{
+    padding: 0 0 3vh 0;
+}
+.liist {
+      margin: 0;
+    text-align-last: left;
+    list-style-type: none;
+}
+.triengl-for-text3{
+    width: 18vw;
+    height: 7vh;
+    color:  #E2E2E2;
+   background-color: #E2E2E2;
+     background-size: cover;
+     clip-path: polygon(0% -97%, 0% 138%, 100% 162%);
+    transform: translateY(14vh);
+}
+.triengl-for-text4{
+      width: 18vw;
+    height: 7vh;
+    color:  #E2E2E2;
+   background-color: #E2E2E2;
+     background-size: cover;
+     clip-path: polygon(0% -97%, 0% 138%, 100% 162%);
+     transform: scaleX(-1) translateY(4vh);
+    margin-left:81vw;
+}
+.color-for-div{
+    background-color: rgba(158, 158, 158, 0.74);
+    border: solid white;
+   width: 90vw;
+    margin: 0 auto;
+    border-radius: 6vw;
+}
+
