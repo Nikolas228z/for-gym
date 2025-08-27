@@ -29,6 +29,10 @@ header {
       justify-content: space-between;
     width: 40vw;
 }
+.navbar ul li
+{
+    align-content: center;
+}
 .black-button{
     background-color: black;
     color: white;
