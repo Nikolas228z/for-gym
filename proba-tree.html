@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Гра з питаннями</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      color: white;
+      text-align: center;
+      transition: background-color 0.4s ease;
+    }
+    .question-box {
+      margin-top: 10vh;
+    }
+    .answers button {
+      display: block;
+      margin: 10px auto;
+      padding: 15px 30px;
+        width: 100%;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      color: white;
+    }
+      .wth-width{
+          width: 90%;
+          margin: 0 auto;
+      }
+  </style>
+</head>
+<body>
+  <div class="question-box">
+    <h1 id="question"></h1>
+      <div class="wth-width">
+    <div class="answers" id="answers"></div>
+          </div>
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+
+  <script>
+    const questions = [
+      {
+        bg: "#ff0909", // синій
+        text: " Яке основне значення має молодіжне сленгове слово КРІНЖ?",
+        answers: ["А. Сильна втома після важкого дня", "Б. Радість, захват від події", "В. Великий успіх, що викликає захоплення", " Г. Відчуття сорому, ніяковість або незручна ситуація"],
+        correct: 3
+      },
+      {
+        bg: "#dd9100", // зелений
+        text: "У якому з речень слово ВАЙБ використано некоректно (тобто, неправильно)?",
+        answers: ["A. Я обожнюю цей кафетерій, тут завжди такий затишний вайб", "B. Від цієї людини йде якийсь негативний вайб, я не хочу з нею спілкуватися", "C. Нам треба купити новий вайб для дому, бо старий зламався", "Г. У цій пісні дуже сумний, але глибокий вайб"],
+        correct: 2
+      },
+      {
+        bg: "#bdd600", // коричневий
+        text: "Якщо хтось каже, що певний одяг це ЗАШКВАР, що він має на увазі??",
+        answers: ["А. Цей одяг є дуже дорогим і преміальним", " Б. Цей одяг є немодним, недоречним або вийшов з тренду", "В. Цей одяг зроблений з натуральних матеріалів", "Г. Цей одяг викликає сильне почуття голоду"],
+        correct: 1
+      },
+      {
+        bg: "#08da00", // фіолетовий
+        text: " Яке слово з наведених найкраще передає почуття до свого КРАША?",
+        answers: ["А. Байдужість", " Б. Сильне захоплення або романтична симпатія", "В. Глибоке відчуття провини", "Г. Професійний інтерес"],
+        correct: 1
+      },
+      {
+        bg: "#09d8ff", // червоний
+        text: " Від якої англійської абревіатури походить слово РОФЛИТИ?",
+        answers: ["A. OMG (Oh My God).", "Б. ASAP (As Soon As Possible).", "B. ROFL (Rolling On the Floor Laughing).", "Γ. LOL (Laughing Out Loud)."],
+        correct: 2
+      },
+      {
+        bg: "blue", // бірюзовий
+        text: "Що означає слово СКІЛ у молодіжному та ігровому сленгу?",
+        answers: ["А. Емоційний стан людини.", "Б. Рідкісний предмет у грі.", "В. Професійна навичка, майстерність, уміння.", "Г. Нове правило або закон."],
+        correct: 2
+      },
+      {
+        bg: "purple", // жовто-коричневий
+        text: " Що означає слово ЧЕКАП (check-up) y сучасному вжитку??",
+        answers: ["А. Комплексне обстеження, перевірка стану чогось.", "Б. Швидка вечеря або перекус.", "В. Різновид спортивного інвентарю.", "Г. Виготовлення нового документа."],
+        correct: 0
+      }
+    ];
+
+    let index = 0;
+
+    function showQuestion() {
+      const q = questions[index];
+      document.body.style.backgroundColor = q.bg;
+
+      document.getElementById("question").textContent = q.text;
+      const ansBox = document.getElementById("answers");
+      ansBox.innerHTML = "";
+
+      q.answers.forEach((a, i) => {
+        const btn = document.createElement("button");
+        btn.textContent = a;
+        btn.onclick = () => checkAnswer(i);
+        ansBox.appendChild(btn);
+      });
+    }
+
+    function checkAnswer(chosen) {
+      const overlay = document.getElementById("overlay");
+      if (chosen === questions[index].correct) {
+        overlay.style.backgroundColor = "rgba(0, 128, 0, 0.9)";
+        overlay.textContent = "Молодець!";
+      } else {
+        overlay.style.backgroundColor = "rgba(200, 0, 0, 0.9)";
+        overlay.textContent = "Наступного разу пощастить!";
+      }
+
+      overlay.style.display = "flex";
+
+      setTimeout(() => {
+        overlay.style.display = "none";
+        index++;
+        if (index < questions.length) showQuestion();
+        else endGame();
+      }, 1500);
+    }
+
+    function endGame() {
+      document.body.style.backgroundColor = "#08da00";
+      document.getElementById("question").textContent = "Гру завершено!";
+      document.getElementById("answers").innerHTML = "";
+    }
+
+    showQuestion();
+  </script>
+</body>
+</html>
